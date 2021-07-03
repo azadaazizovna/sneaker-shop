@@ -1,0 +1,35 @@
+.cart-container {
+    flex-wrap: wrap;  
+    display: flex;
+    width: 100%;
+    padding-left: 50px;
+    margin-top: 30px;
+}
+.card {
+   transition: box-shadow 0.3s ease-in-out;
+   cursor: pointer;
+   text-align: end;
+}
+.card:hover{
+    box-shadow: 0px 14px 30px rgba(0,0,0,0.1);
+    transform: translateY(-8px);
+}
+
+@media screen and (max-width: 820px) {
+    .cart-container {
+        display: flex;
+        padding-left: 200px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cart-container {
+      padding-left: 50px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .cart-container {
+      padding-left: 50px;
+    }
+}
+
